@@ -18,3 +18,7 @@ Structuring Sinatra App: (no namespace module)
   - created views folder with index and layout erb files
   - created route to index.erb
   - initial sinatra env working - rspec and rackup running.
+
+  ===========================================================
+  - added capybara to gems, install and require on spec_helper
+  - created spec/features folder for first test.

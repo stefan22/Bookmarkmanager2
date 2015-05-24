@@ -1,3 +1,22 @@
-<section id="header">
-  <h1>Welcome to the Bookmark manager</h1>
+<header id="header">
+  <h1>Bookmark manager 2.0</h1>
+</header>
+
+<section id="links">
+  Current links:
+  <ul>
+    <% @links.each do |link| %>
+      <li><a href='<%= link.url %>'><%= link.title %></a></li>
+    <% end %>
+  </ul>
+
+  <div id='new-link'>
+    <form action='/links' method='post'>
+      Website Url: <input type='text' name='url'><br/><br/>
+      Website Title: <input type='text' name='title'><br/><br/>
+      Website Tags: <input type="text" name="tags">
+      <input type='submit' value='Add link'>
+    </form>
+  </div>
+
 </section>

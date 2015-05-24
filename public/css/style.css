@@ -6,7 +6,7 @@ body {
 
 #header {
   background-color: #fff;
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
   height: 40px;
   line-height: 2.5em;
@@ -15,4 +15,19 @@ body {
 
  }
 
-h1 {text-align: center;}
+h1 {text-align: center; text-shadow: 1px 4px 5px rgba(0,0,0,.1);}
+
+#links { margin: 4em 0 0 4em; }
+
+#new-link {
+  padding: 10px;
+  border:1px solid black;
+  width: 200px;
+  border-radius: 10px;
+  text-decoration: none !important;
+
+}
+
+
+
+form input { margin: 5px 0 5px 8px; }
